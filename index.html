@@ -4,7 +4,6 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Denelle's Resume</title>
@@ -17,14 +16,16 @@
 
 <body>
 <!--Header/Intro-->
-    <header>
-      <div>
+    <header class="container"> 
+      <div class="intro">
+       <div>
           <picture>
             <source media="(max-width: 640px)" srcset="images/profilePhoto1.jpg"> 
-            <source media="(max-width: 1280px)" srcset="images/profilePhoto2.jpg">  
+            <source media="(max-width: 1200px)" srcset="images/profilePhoto2.jpg">  
             <img src="images/profilePhoto3.jpg" alt="A picture of Denelle Parsuramen"id="MainPicture">
           </picture>
-
+       </div>
+      <div class="intro-item2">
          <H1>Denelle Parsuramen</H1>
            <h2>IT Support Consultant</h2>
           
@@ -35,12 +36,12 @@
 
             <div><i>Contact section</i></div>
             <div><i>Github</i></div>
+          </div>
+
       </div> 
     </header>
 
 <!--bookmarks/aside-->
-       
-       <aside>
          <nav>
            <ul> 
              <li><a href="#Education">Education</a></li>
@@ -49,52 +50,54 @@
              <li><a href="#Contact Details">Contact Details</a></li>
            </ul>
          </nav>
-       </aside>
 
 <!--main content-->
-<main>
+<main class="flex-container">
      <div>
 
 <!--Education-->
-         <h2>Education</h2>
+        <div class="flex-item1">
+         <h2 id="Education">Education</h2>
 
          <H3>Intro to Web at <a href="https://www.codespace.co.za/"target="_blank">CodeSpace Academy</a> </H3>
          <p>I am currently completing the first module, Intro to web and working towards a Software 
           development qualification.</p>
         
-         <H3>Comptia A+ at <a href="https://www.udemy.com/"target="_blank">Udemy</a> </H3>
+         <H3>Comptia A+ at <a href="https://www.udemy.com/"target="_blank">Udemy</a> </H4>
          <p>Completed CompTia A+ 220-1001 & 220-1101</p>
   
          <H3>High School Diploma</H3>
          <p>Lincoln Heights Secondary - Newcastle, KZN</p>
-        
+        </div>
 <!--Experience-->
-         <H2 >Experience</H2>
+        <div class="flex-item2">
+         <H2 id="Experience">Experience</H2>
 
-         <H3>IT Support Consultant </H3>
+         <H3>Technical Support Consultant </H3>
          <h4>Jenny Internet PTY (LTD), Newcastle, KwaZulu-Natal</h4>
-        
+
          <p>Resolve diverse range of technical issues such as Voice over Internet protocol, Internet protocol 
           Faxing, Wireless, ADSL, Fibre and LTE, across multiple systems and applications for Internal 
           and external end-users throughout Botswana, Swaziland, Mozambique, Zambia, Democratic Republic
-           of Congo and South Africa. </p>
-        
+          of Congo and South Africa. </p>
+
          <H3>Office Administrator</H3>
          <h4>Jack Flash Textile PTY (LTD), Newcastle, KwaZulu-Natal</h4>
 
-          <p> Reconciled account files and produced monthly reports.Verified salaried and hourly employee 
-           time cards to prepare accurate biweekly payroll.Received and processed stock into inventory 
-           management system such as materials, markers, trims and seal samples.Created plans and 
-           communicated deadlines to complete orders on time. Delivered clerical support by handling a 
-           range of routine and special requirements from suppliers including Pick 'n Pay clothing, Mr 
-           Price, Ackermans and Pep retail companies.
-          </p>
+         <p> Reconciled account files and produced monthly reports.Verified salaried and hourly employee 
+         time cards to prepare accurate biweekly payroll.Received and processed stock into inventory 
+         management system such as materials, markers, trims and seal samples.Created plans and 
+         communicated deadlines to complete orders on time. Delivered clerical support by handling a 
+         range of routine and special requirements from suppliers including Pick 'n Pay clothing, Mr 
+         Price, Ackermans and Pep retail companies.
+        </p>
+       </div>
       </div> 
     </main>
 
 
 <!--Skills Sections-->
-<section>
+<section id="Skills">
    <div>
         <H2>Software and Operational Systems Experience</H2>
         
@@ -145,46 +148,45 @@
     </div>
   </section>
 
-    <!--Footer-->
-   <footer>
-  
-     <H2 id="Contact Details">Contact Details</H2>
+<!--Footer-->
+<footer class="footer-container">
+  <div>
+   <H2 id="Contact-Header">Contact Me Today!</H2>
+   <!--My contact info + my font awesome icons-->
+   <div class="contact-details">    
+    <div><i class="fa-solid fa-location-dot"></i>23 Tagore street, Paradise, Newcastle</div><br>
+    <div><i class="fa-solid fa-envelope"></i>denelle728@gmail.com</div><br>
+    <div><i class="fa-solid fa-phone"></i>+27 62 889 0742</div>
+   </div>
+    <!--social links-->
+    <div class="social-links">
+     <a class="fa" href="https://www.facebook.com/denelle.parsuramen"><i class="fab fa-facebook-f"></i></a>
+     <a class="fa" href="https://www.instagram.com/denelle_parsuramen/"><i class="fab fa-instagram"></i></a>
+     <a class="fa" href="https://www.linkedin.com/in/denelle-parsuramen-2a7831253/"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
 
-      <div>
-       <div><i ></i>23 Tagore street, Paradise, Newcastle</div>
-       <div><i ></i>denelle728@gmail.com</div>
-       <div><i ></i>+27 62 889 0742</div>
-      </div>
-      <br>
-      <div>
-        <a href="https://www.facebook.com/denelle.parsuramen">facebook </a>
-        <a href="https://www.linkedin.com/in/denelle-parsuramen-2a7831253/">Linkedin</a>
-        <a href="https://www.instagram.com/denelle_parsuramen/">Instagram</a>
-        <a href="https://github.com/Denelle97?tab=repositories">Github</a>
-      </div>
-      <br>
-      <div>
-        <form action="https://formsubmit.co/denelle728@gmail.com" method="post">
-              <label for="name">Name:</label>
-              <input type="text" name="name" placeholder="Johnathan Doe" required>
-              
-              <label for="Contact number">Contact number:</label>
-              <input type="number" name="Contact number" placeholder="+27000000000" required>
-            
-              <label for="email">E-mail:</label>
-              <input type="email" name="email" placeholder="E-mail address" required>
-            
-              <label for="Contact me by" >Contact me by:</label>
-              <input type="radio" name="option1" value="E-mail" >E-mail
-              <input type="radio" name="option2" value="Phone" >Phone
+  <!--form-->
+ <div class="contact-form">
+ <form action="https://formsubmit.co/denelle728@gmail.com" method="post">
+         
+         <label for="name">Name:</label>
+         <input type="text" name="name" placeholder="Johnathan Doe" required>
+ 
+          <label for="Contact number">Contact number:</label>
+          <input type="tel" name="Contact number" placeholder="+27000000000" required>
 
-              <label for="Message">Drop me a message!</label>
-              <textarea name="message me" id="message me" cols="30" rows="10"></textarea> 
-              <input type="submit" name="submit" value="Send">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" placeholder="E-mail address" required>
+
+          <label for="Message">Drop me a message!</label>
+
+          <textarea name="message me" id="message me" cols="30" rows="10"></textarea> 
+          <input type="submit" name="submit" value="Send">
+
         </form>
-      </div>
-
-  </footer>      
+      </div> 
+   </div>
+ </footer>      
         
 </body>
 </html>
