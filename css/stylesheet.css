@@ -2,7 +2,26 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 100px;
-    border: 3px solid #003B6D;
+    border: 3px solid #C27668;
    
 }
 
+header{
+    background-color: #FDAB9B;
+}
+
+aside {
+    background-color: #FFE5DB;
+}
+
+main {
+    background-color:#F9D4CD;
+}
+
+section{
+    background-color: #FFE5DB;
+}
+
+footer {
+    background-color: #FDAB9B;
+}
