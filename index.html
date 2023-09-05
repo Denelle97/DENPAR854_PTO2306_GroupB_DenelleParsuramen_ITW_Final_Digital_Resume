@@ -24,7 +24,7 @@
 
     <picture>
      <source media="(max-width: 640px)" srcset="images/profilePhoto1.jpg"> 
-     <source media="(max-width: 1280px)" srcset="images/profilePhoto2.jpg">  
+     <source media="(max-width: 1024px)" srcset="images/profilePhoto2.jpg">  
      <img src="images/profilePhoto3.jpg" alt="A picture of Denelle Parsuramen"id="MainPicture">
     </picture>
 
@@ -34,20 +34,20 @@
      Windows, Linux and Mac systems. Proven skill in resolving problems quickly on first call.
    </p> 
 
-   <div><a href="#Contact Details">Contact section</a></div>
-    <div><a href="https://github.com/Denelle97?tab=repositories">Github</a></div>
+   <div><a href="#Contact-Header">Contact section</a></div>
+    <div><a href="https://github.com/Denelle97?tab=repositories"target="_blank">Github</a></div>
 
   </div> 
 </header>
 
 <!--bookmarks/aside-->
-         <nav>
-           <ul> 
-             <li><a href="#Education">Education</a></li>
-             <li><a href="#Experience">Experience</a></li>
-             <li><a href="#Skills">Skills</a></li>
-             <li><a href="#Contact Details">Contact Details</a></li>
-           </ul>
+         <nav class="nav-list">
+           
+             <a class="nav-list1" href="#Education">Education</a>
+             <a class="nav-list2" href="#Experience">Experience</a>
+             <a class="nav-list3" href="#Skills">Skills</a>
+             <a class="nav-list4" href="#Contact-Header">Contact Details</a>
+          
          </nav>
 
 <!--main content-->
@@ -97,7 +97,8 @@
 
 <!--Skills Sections-->
 <section id="Skills">
-   <div>
+   <div class="grid-container">
+    <div class="grid-item1">
         <H2>Software and Operational Systems Experience</H2>
         
         <ul>
@@ -116,7 +117,7 @@
            <li>CSS</li>
         </ul>
     </div>
-    <div>
+    <div class="grid-item2">
         <H2>Skills</H2>
         
         <ul>
@@ -130,7 +131,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="grid-item3">
         <H2 >Accomplishments</H2>
   
         <ul>
@@ -145,6 +146,7 @@
           <li>Recipient of individual and departmental awards for providing stellar client service. 2019 - 2022</li>
        </ul>
     </div>
+  </div>
   </section>
 
 <!--Footer-->
@@ -152,30 +154,30 @@
   <div>
    <H2 id="Contact-Header">Contact Me Today!</H2>
    <!--My contact info + my font awesome icons-->
-   <div class="contact-details">    
+   <div class="item1-contact-details">    
     <div><i class="fa-solid fa-location-dot"></i>23 Tagore street, Paradise, Newcastle</div><br>
     <div><i class="fa-solid fa-envelope"></i>denelle728@gmail.com</div><br>
     <div><i class="fa-solid fa-phone"></i>+27 62 889 0742</div>
    </div>
     <!--social links-->
-    <div class="social-links">
+    <div class="item2-social-links">
      <a class="fa" href="https://www.facebook.com/denelle.parsuramen"><i class="fab fa-facebook-f"></i></a>
      <a class="fa" href="https://www.instagram.com/denelle_parsuramen/"><i class="fab fa-instagram"></i></a>
      <a class="fa" href="https://www.linkedin.com/in/denelle-parsuramen-2a7831253/"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
 
   <!--form-->
- <div class="contact-form">
+ <div class="item1-contact-form">
  <form action="https://formsubmit.co/denelle728@gmail.com" method="post">
          
          <label for="name">Name:</label>
-         <input type="text" name="name" placeholder="Johnathan Doe" required>
+         <input type="text" name="name" placeholder="Jane Doe" required>
  
           <label for="Contact number">Contact number:</label>
           <input type="tel" name="Contact number" placeholder="+27000000000" required>
 
           <label for="email">E-mail:</label>
-          <input type="email" name="email" placeholder="E-mail address" required>
+          <input type="email" name="email" placeholder="jane@doe.co.za" required>
 
           <label for="Message">Drop me a message!</label>
 
